@@ -18,7 +18,7 @@
                 <a class="nav-link" href="banner_list">BANNERS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PEDIDOS</a>
+                <a class="nav-link" href="pedidos_list">PEDIDOS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">BIENVENIDO <span class="username"></span></a>
