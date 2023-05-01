@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">INICIO</a>
+                <a class="nav-link" href="bienvenida">INICIO</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="admin_list">ADMINISTRADORES</a>
