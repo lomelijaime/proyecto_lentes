@@ -8,7 +8,7 @@ $dbh = $cn->getDb();
 if (isset($_POST['id'])) {
     $id = $_POST['id'];
     try {
-        $query = "SELECT nombre, codigo, descripcion, costo, stock, archivo, status FROM productos WHERE id = ? AND eliminado = 0";
+        $query = "SELECT id, nombre, codigo, descripcion, costo, stock, archivo, status FROM productos WHERE id = ? AND eliminado = 0";
         $stmt = $dbh->prepare($query);
         $stmt->execute([$id]);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
