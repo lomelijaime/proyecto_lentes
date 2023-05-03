@@ -15,7 +15,21 @@
 
 
     <div class="container general my-5">
-        <div id="productos_destacados" class="mt-4container row flex-grow-1"></div>
+        <form action="php/enviar_correo.php" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="comments" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="comments" name="comments" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
     </div>
 
     <!-- Footer -->
