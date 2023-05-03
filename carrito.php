@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <?php include 'layout/navbar_shop.php'; ?>
 
-    <div class="container">
+    <div class="container mb-5">
         <h1>Listado de productos en el carrito</h1>
         <div class="table-responsive">
             <table id="t_pedido" class="table table-striped">
@@ -39,6 +39,9 @@
         <hr>
         <a href="productos" class="btn btn-primary" style="float:right">Regresar a productos</a>
     </div>
+    <br>
+    <!-- Footer -->
+    <?php include 'layout/footer.php'; ?>
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>

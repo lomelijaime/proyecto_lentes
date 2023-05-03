@@ -9,25 +9,13 @@
 </head>
 
 <body>
-    <style>
-        .card-img-top {
-            object-fit: cover;
-            width: 100%;
-            height: 8rem;
-        }
-
-        .prod {
-            max-width: 18rem;
-        }
-    </style>
 
     <!-- Navbar -->
     <?php include 'layout/navbar_shop.php'; ?>
 
 
     <div class="container general my-5">
-        <h3 class="text-center mt-5">Todos nuestros productos</h3>
-        <div id="productos" class="mt-4 container row flex-grow-1"></div>
+        <div id="productos_destacados" class="mt-4container row flex-grow-1"></div>
     </div>
 
     <!-- Footer -->
@@ -37,8 +25,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- <script src="src/js/getUsername.js"></script> -->
     <script src="src/js/getUsername_cliente.js"></script>
-    <script src="src/js/productos.js"></script>
-    <script src="src/js/carrito.js"></script>
 </body>
 
 </html>
